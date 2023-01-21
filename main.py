@@ -12,5 +12,4 @@ def models_info():
 app.include_router(glovbal_router , prefix='/v1')
 app.include_router(user_router , prefix='/v1')
 
-if __name__=='__main__':
-    uvicorn.run(app)
+
